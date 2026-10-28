@@ -1,8 +1,8 @@
-# Virtual CYP-PK Lab — Pentobarbital
+# Virtual PK-Hypnosis Lab — Pentobarbital
 
-This repository contains the **Virtual CYP-PK Lab** and the reproducible analysis code accompanying the manuscript:
+This repository contains the **Virtual PK-Hypnosis Lab** and the reproducible analysis code accompanying the manuscript:
 
-**“A literature-informed framework for linking systemic pharmacokinetic changes to pentobarbital-induced hypnosis and its implementation in a Virtual CYP-PK Lab.”**
+**“Development of a literature-informed Virtual PK–Hypnosis Lab using historical pentobarbital pharmacokinetic and behavioral data.”**
 
 It includes standalone English and Japanese R/Shiny applications and the reproducible R analysis pipeline used for the literature-informed pentobarbital (PTB) PK/PD framework.
 
@@ -10,8 +10,8 @@ It includes standalone English and Japanese R/Shiny applications and the reprodu
 
 ```text
 virtual-cyp-pk-lab-ptb/
-├─ Virtual_CYP_PK_Lab_EN.R
-├─ Virtual_CYP_PK_Lab_JA.R
+├─ Virtual_PK-Hypnosis_Lab_EN.R
+├─ Virtual_PK-Hypnosis_Lab_JA.R
 ├─ README.md
 ├─ CITATION.cff
 ├─ LICENSE
@@ -37,12 +37,12 @@ virtual-cyp-pk-lab-ptb/
 
 The analysis creates `Analysis/outputs/`, `Analysis/figures/`, and `Analysis/tables/` when it is run. These generated files are intentionally not stored in the repository.
 
-## Virtual CYP-PK Lab
+## Virtual_PK-Hypnosis_Lab
 
 Two standalone versions are provided:
 
-- `Virtual_CYP_PK_Lab_EN.R` — English version
-- `Virtual_CYP_PK_Lab_JA.R` — Japanese version
+- `Virtual_PK-Hypnosis_Lab_EN.R` — English version
+- `Virtual_PK-Hypnosis_Lab_JA.R` — Japanese version
 
 Both applications are self-contained and use the same fixed virtual-rat bank and model parameterization used for the manuscript implementation.
 
@@ -60,13 +60,13 @@ Open either application file in RStudio and click **Run App**.
 Alternatively:
 
 ```r
-source("Virtual_CYP_PK_Lab_EN.R")
+source("Virtual_PK-Hypnosis_Lab_EN.R")
 ```
 
 or
 
 ```r
-source("Virtual_CYP_PK_Lab_JA.R")
+source("Virtual_PK-Hypnosis_Lab_JA.R")
 ```
 
 ## Reproducing the manuscript analysis
