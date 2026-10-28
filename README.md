@@ -9,7 +9,7 @@ It includes standalone English and Japanese R/Shiny applications and the reprodu
 ## Repository structure
 
 ```text
-virtual-cyp-pk-lab-ptb/
+virtual-pk-hypnosis-lab-ptb/
 ├─ Virtual_PK-Hypnosis_Lab_EN.R
 ├─ Virtual_PK-Hypnosis_Lab_JA.R
 ├─ README.md
