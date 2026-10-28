@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software or analysis code, please cite the associated manuscript and this repository."
-title: "Virtual CYP-PK Lab: pentobarbital PK/PD analysis and Shiny applications"
+title: "Virtual PK-Hypnosis Lab: pentobarbital PK/PD analysis and Shiny applications"
 type: software
 authors:
   - family-names: "Ichihara"
